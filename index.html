@@ -1,16 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-        
-        <title>trillo &mdash; Your all-in-one booking app</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+        <title>Book-It | Your all-in-one booking app</title>
     </head>
     <body>
-        
+        <div class="container">
+            <header class="header">
+                <img src="img/logo.png" alt="bookit logo" class="logo" />
+                <form action="#" class="search">
+                    <input
+                        type="text"
+                        class="search-input"
+                        placeholder="Search hotels"
+                    />
+                    <button class="search-btn">
+                        <svg class="search-icon">
+                            <use
+                                xlink:href="img/sprite.svg#icon-magnifying-glass"
+                            ></use>
+                        </svg>
+                    </button>
+                </form>
+
+                <div class="user-nav">
+                    <div class="user-nav-icon-box">
+                        <svg class="user-nav-icon">
+                            <use
+                                xlink:href="img/sprite.svg#icon-bookmark"
+                            ></use>
+                        </svg>
+                        <span class="user-nav-notification">7</span>
+                    </div>
+                    <div class="user-nav-icon-box">
+                        <svg class="user-nav-icon">
+                            <use xlink:href="img/sprite.svg#icon-chat"></use>
+                        </svg>
+                        <span class="user-nav-notification">25</span>
+                    </div>
+                    <div class="user-nav-user">
+                        <img
+                            src="img/user-1.jpg"
+                            alt="user-1"
+                            class="user-nav-user-photo"
+                        />
+                        <span class="user-nav-user-name">John</span>
+                    </div>
+                </div>
+            </header>
+            <div class="content">
+                <nav class="sidebar">
+                    Navigation
+                </nav>
+                <main class="content-view">
+                    content view
+                </main>
+            </div>
+        </div>
     </body>
 </html>
